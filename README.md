@@ -15,4 +15,4 @@
 ***
 Ce site consiste à faire découvrir aux étudiants les 40 domaines de professionnalisation de JUNIA Grande école d'ingénieurs, de façon plus détaillés et en plus d'aider le cadre administratif de se rapprocher de plus en plus des étudiants en sachant leurs avis suite un remplissage d'un formulaire .
 ### Screenshot
-![Image text](/Git_Screen/formulaire.png)
+![Image text](Git_Screen/formulaire.png)
