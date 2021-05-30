@@ -66,10 +66,10 @@
         margin-top : 170px;
         margin-left : 35%;
         }
-.btn{
-    padding-left : 155px;
-    padding-right : 155px;
-}
 body{
         background-color : #f8f9fa!important;
+    }
+    .btn{
+        padding-left : 155px;
+        padding-right : 155px;
     }
