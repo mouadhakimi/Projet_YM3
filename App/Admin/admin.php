@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Acceuil Administrateur</title>
-        <link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréamaroc.jpg">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréa_maroc.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="../css/admin.css">
         <link rel="stylesheet" href="../css/dropdown.css">
