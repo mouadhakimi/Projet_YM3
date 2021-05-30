@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréamaroc.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréa_maroc.png">
 
 <title>ISA Lille</title>
 
