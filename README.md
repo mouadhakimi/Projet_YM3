@@ -22,7 +22,7 @@ Ce site consiste à faire découvrir aux étudiants les 40 domaines de professio
 A list of technologies used within the project:
 * [HTML](https://fr.wikipedia.org/wiki/HTML5): Version 5.0
 * [CSS](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade#CSS3): Version 3.0
-* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Version 4.0.0
 * [PHP](https://www.php.net/downloads): Version 8.0.6
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Version 4.0.0
 * [Mysql](https://dev.mysql.com/doc/): Version 8.0
 * [Javascript](https://www.javascript.com/): Version ES6
