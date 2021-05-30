@@ -27,3 +27,12 @@ A list of technologies used within the project:
 * [BOOTSTRAP](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Version 4.0.0
 * [MYSQL](https://dev.mysql.com/doc/): Version 8.0
 * [JAVASCRIPT](https://www.javascript.com/): Version ES6
+
+## Installation
+***
+A little intro about the installation.
+```
+$ git clone https://github.com/mouadhakimi/Projet_YM3.git
+$ cd ../path/to/the/file
+```
+Side information: To use the application in a special environment use ```xampp``` to start
