@@ -3,9 +3,6 @@
 <head>
 <meta charset="utf-8">
 <link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréamaroc.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="keywords" content="htmlcss bootstrap aside menu, vertical, sidebar nav menu CSS examples" />
-<meta name="description" content="Bootstrap 5 sidebar navigation menu example" />  
 
 <title>ISA Lille</title>
 
