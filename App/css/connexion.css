@@ -69,7 +69,7 @@
 body{
         background-color : #f8f9fa!important;
     }
-    .btn{
-        padding-left : 164px;
-        padding-right : 164px;
-    }
+.btn{
+    padding-left : 164px;
+    padding-right : 164px;
+}
