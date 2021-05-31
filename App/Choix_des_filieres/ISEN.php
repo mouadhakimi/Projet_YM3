@@ -46,7 +46,7 @@
         $ecole = 'ISEN';
         $sql = $conn->query("SELECT lien,nom_filiere FROM filiere WHERE ecole = '$ecole'");
         while($row = $sql->fetch_array()){
-            echo '<a class="nav-link" href="'.htmlspecialchars($row['lien']).'">'. htmlspecialchars($row['nom_filiere']).'</a>';
+            echo '<a class="nav-link" href="ISEN_filieres/'.htmlspecialchars($row['lien']).'">'. htmlspecialchars($row['nom_filiere']).'</a>';
         } 
     ?>
 	</li>
