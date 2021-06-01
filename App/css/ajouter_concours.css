@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Regina script;
+    src: url(../../Font/ReginaScript-d9xAX.ttf);
+    }
+
+.yncréa-maroc {
+    width: 120px;
+    float: left;
+    left: 10px;
+    top : 20px;
+}
+.git-hub{
+    width: 50px;
+    float: right;
+    margin-top : 10px;
+    margin-right : 10px;
+}
+.sortie{
+    width: 50px;
+    float: right;
+    margin-top : 10px;
+    margin-right : 10px;
+}
+#titre {
+    margin-top : 5px;
+    text-align: center;
+    font-family: 'Regina script' ;
+    text-shadow:     0 1px 0 rgb(250, 198, 56),
+                        0 2px 0 rgb(250, 198, 56),
+                        0 3px 0 hsl(174,5%,70%),
+                        0 4px 0 hsl(174,5%,66%),
+                        0 5px 0 hsl(174,5%,64%),
+                        0 6px 0 hsl(174,5%,62%),
+                        0 7px 0 hsl(174,5%,61%),
+                        0 8px 0 hsl(174,5%,60%),
+        
+                        0 0 5px rgba(0, 0, 0, 0.05),
+                        0 1px 3px rgba(0,0,0,.2),
+                        0 3px 5px rgba(0,0,0,.2),
+                    0 5px 10px rgba(0,0,0,.2),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.3);
+}
+.page-header {
+        border-bottom: 1px outset #000;
+        height: 70px;
+        overflow-y: hidden;
+}
+.warning {
+        padding: 20px;
+        margin: 20px ;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+        margin-bottom: 0;
+        margin-top: -5px;
+        border-left-color: #f0ad4e;
+        -moz-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;  
+        margin-top : 170px;
+}
+body{
+        background-color : #f8f9fa!important;
+    }
+
