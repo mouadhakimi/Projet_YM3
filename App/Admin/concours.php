@@ -38,7 +38,7 @@
         <div class="container-fluid">
             <div class="warning">
                 <div class="form1">
-                <form method="post" action="traitement_etudiant.php">
+                <form method="post" action="affichage_concours.php">
                 <input type="button" value="Afficher les concours" onclick="submit()" id="btn1" class="btn btn-dark">
                 </form>
                 <br>
