@@ -66,7 +66,7 @@
         margin-top : 170px;
         margin-left : 35%;
 }
-.btn{
+#btn1{
     padding-left : 130px;
     padding-right : 130px;
 }
@@ -81,6 +81,10 @@
 #btn4{
     padding-left : 131px;
     padding-right : 131px;
+}
+#btn5{
+    padding-left : 170px;
+    padding-right : 170px;
 }
 body{
         background-color : #f8f9fa!important;
