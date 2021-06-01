@@ -12,8 +12,8 @@ $date = $_POST['date'];
 $time = $_POST['time'];
 $requette_2 = "INSERT INTO concours VALUES (NULL,'$date','$time')";
 if ($conn->query($requette_2) === TRUE) {
-    echo "<script>alert('Concours ajouter');</script>";
-    echo "<script>window.location.replace('http://127.0.0.1/Projet/App/Admin/ajout_données.php');</script>";
+    echo "<script>alert('Concours ajouté');</script>";
+    echo "<script>window.location.replace('http://127.0.0.1/Projet/App/Admin/affichage_concours.php');</script>";
 } else {
     echo "Error updating record: " . $conn->error;
 }
