@@ -96,6 +96,7 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Si oui, Quelle filiére vous intérésse ?</span>
                         <select name="filiere" class="form-control">
+                            <option value="NULL">NULL</option>
                         <?php
                                 $sql = $conn->query("SELECT filiere_id,nom_filiere FROM filiere");
                                 while($row = $sql->fetch_array()){
