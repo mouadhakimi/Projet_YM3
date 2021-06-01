@@ -47,7 +47,7 @@
             <div class="warning">
                 <div class="form1">
                 <form method="post" action="ajout_données.php">
-                <input type="button" value="Ajouter des données d'une filière" onclick="submit()"  class="btn btn-dark">
+                <input type="button" value="Changer les données d'une filiére" onclick="submit()"  class="btn btn-dark">
                 </form>
                 <br>
                 </div>
