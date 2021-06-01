@@ -48,44 +48,31 @@
         <div class="container-fluid">
             <div class="warning">
                 <form action="ajouter_données.php" method="post">
-                    <h4>Ajouter les données d'une filiére : </h4><br>
+                    <h4>Changer les données d'une filiére : </h4><br>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Nom de la filiére </span>
-                        <input type="text" placeholder="Nom " name="nom" id="nom" class="form-control" required><br>
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Ecole :</span>
-                        <select name="ecole" class="form-control">
+                        <span class="input-group-text" id="basic-addon1">Filiere :</span>
+                        <select name="filiere" class="form-control">
                         <?php
-                                $sql = $conn->query("SELECT DISTINCT(ecole)  FROM filiere");
+                                $sql = $conn->query("SELECT DISTINCT(nom_filiere)  FROM filiere");
                                 while($row = $sql->fetch_array()){
-                                    echo '<option value="'.htmlspecialchars($row['ecole']).'">'. htmlspecialchars($row['ecole']).' Lille</option>';
+                                    echo '<option value="'.htmlspecialchars($row['nom_filiere']).'">'. htmlspecialchars($row['nom_filiere']).'</option>';
                                 }?>
                         </select>
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Définition</span>
-                        <textarea name="definition" class="form-control" required></textarea>
+                        <span class="input-group-text" id="basic-addon1">Vous voulez changer :</span>
+                        <select name="columns" class="form-control">
+                                <option value="definition">Définition</option>
+                                <option value="salaire">Salaire</option>
+                                <option value="formation">Formation</option>
+                                <option value="principaux_employeurs">Domaine d'emploi</option>
+                                <option value="qualités_compétences_nécéssaires">Qualités et compétences nécessaires</option>
+                                <option value="lien">Lien</option>
+                        </select>
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Salaire</span>
-                        <textarea name="Salaire" class="form-control" required></textarea>
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Formation</span>
-                        <textarea name="formation" class="form-control" required></textarea>
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Domaine d'emploi</span>
-                        <textarea name="principaux_employeurs" class="form-control" required></textarea>
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Qualités et compétences nécessaires</span>
-                        <textarea name="qualités_compétences_nécessaires" class="form-control" required></textarea>
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Lien PHP</span>
-                        <textarea name="lien" class="form-control" required></textarea>
+                        <span class="input-group-text" id="basic-addon1">Ecrire la donnée que vous voulez changer</span>
+                        <textarea name="donnée" class="form-control" required></textarea>
                     </div>
                     <input type="button" value="Envoyer" onclick="submit()"  class="btn btn-dark">
                 </form>
