@@ -49,7 +49,7 @@
                     <span class="input-group-text" id="basic-addon1">Ecole :</span>
                     <select name="ecole" class="form-control">
                     <?php
-                            $sql = $conn->query("SELECT DISTINCT(ecole)  FROM filiere");
+                            $sql = $conn->query("SELECT DISTINCT(ecole)  FROM filiere WHERE ecole NOT LIKE 'NULL'");
                             while($row = $sql->fetch_array()){
                                 echo '<option value="'.htmlspecialchars($row['ecole']).'">'. htmlspecialchars($row['ecole']).' Lille</option>';
                             }?>
