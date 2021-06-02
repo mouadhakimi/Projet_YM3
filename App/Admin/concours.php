@@ -44,7 +44,7 @@
                 <br>
                 </div>
                 <div class="form2">
-                <form method="post" action="traitement_filiere.php">
+                <form method="post" action="etudiant_concours.php">
                 <input type="button" value="Afficher les étudiants" onclick="submit()" id ="btn2" class="btn btn-dark">
                 </form>
                 <br>
@@ -56,7 +56,7 @@
                 <br>
                 </div>
                 <div class="form4">
-                    <form method="post" action="traitement_suppression.php">
+                    <form method="post" action="suppression_concours.php">
                     <input type="button" value="Supprimer un concours" onclick="submit()" id="btn4" class="btn btn-dark">
                     </form>
                 </div>
