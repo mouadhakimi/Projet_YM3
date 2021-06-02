@@ -56,7 +56,7 @@
                         <input type="date" name="date" class="form-control" required><br>
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Date du concours :</span>
+                        <span class="input-group-text" id="basic-addon1">Heure du concours :</span>
                         <input type="time" name="time" class="form-control">
                     </div>
                     <input type="button" value="Envoyer" onclick="submit()"  class="btn btn-dark">
@@ -95,9 +95,9 @@
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
                 <nav class="nav flex-column">
                   <a class="nav-link active" href="../Choix_des_filieres/choix_ecole.php">Filiéres</a>
-                  <a class="nav-link" href="#">Admission</a>
-                  <a class="nav-link" href="../Admin/connexion_admin.php">Administrateur</a>
-                  <a class="nav-link" href="#">Frais de scolarité</a>
+                  <a class="nav-link" href="../main/admission.php">Admission</a>
+                  <a class="nav-link disabled" >Administrateur</a>
+                  <a class="nav-link" href="../main/frais_scolarite.html">Frais de scolarité</a>
                 </nav>
               </div>
               <hr class="clearfix w-100 d-md-none">
