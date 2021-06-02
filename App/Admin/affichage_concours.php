@@ -101,9 +101,9 @@
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
                 <nav class="nav flex-column">
                   <a class="nav-link active" href="../Choix_des_filieres/choix_ecole.php">Filiéres</a>
-                  <a class="nav-link" href="#">Admission</a>
-                  <a class="nav-link" href="../Admin/connexion_admin.php">Administrateur</a>
-                  <a class="nav-link" href="#">Frais de scolarité</a>
+                  <a class="nav-link" href="../main/admission.php">Admission</a>
+                  <a class="nav-link disabled" >Administrateur</a>
+                  <a class="nav-link" href="../main/frais_scolarite.html">Frais de scolarité</a>
                 </nav>
               </div>
               <hr class="clearfix w-100 d-md-none">
