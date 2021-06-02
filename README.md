@@ -26,6 +26,10 @@ A list of technologies used within the project:
 * [BOOTSTRAP](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Version 4.0.0
 * [MYSQL](https://dev.mysql.com/doc/): Version 8.0
 * [JAVASCRIPT](https://www.javascript.com/): Version ES6
+* [TYPEFORM](https://www.typeform.com/)
+* [GOOGLE SHEET](https://www.google.com/intl/fr/sheets/about/)
+* [GOOGLE CLOUD PLATFORM](https://console.cloud.google.com/home/)
+
 
 ## Installation
 ***
