@@ -62,7 +62,6 @@
                     <TR> 
                     <TH> Nom </TH> 
                     <TH> Prénom </TH> 
-                    <TH> Sexe </TH>
                     <TH> Numéro de téléphone </TH> 
                     <TH> E-mail </TH> 
                     <TH> Ecole </TH>
@@ -82,7 +81,6 @@
                                 echo"<TR> 
                                 <TD>".$row['nom']."</TD> 
                                 <TD>".$row['prenom']." </TD> 
-                                <TD>".$row['sexe']." </TD>
                                 <TD>".$row['numero_telephone']."</TD> 
                                 <TD>".$row['email']."</TD> 
                                 <TD>".$row['ecole']."</TD>
