@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <title>Journée Porte Ouvertes</title>
+        <title>Admission</title>
         <link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréa_maroc.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="../css/admission.css"/>
@@ -18,7 +18,7 @@
                 src="../../Photo/yncréamaroc.png"
                 alt="Logo yncréa Maroc"></a>
 
-                <a href="https://github.com/mouadhakimi-code/Project" id="retour à la page git-hub" target="_blank" ><img class="git-hub"
+                <a href="https://github.com/mouadhakimi/Projet_YM3" id="retour à la page git-hub" target="_blank" ><img class="git-hub"
                 src="../../Photo/github.png"
                 alt="Logo GitHub"></a>
 
@@ -83,7 +83,7 @@
                                 echo"<TR> 
                                 <TD>".$row['Date_concours']." </TD> 
                                 <TD>".$row['Heure']."</TD> 
-                                </TR> ";
+                                </TR>";
                             }
                     ?>
                 </TABLE>
