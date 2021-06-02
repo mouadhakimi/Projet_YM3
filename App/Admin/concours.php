@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <title>Acceuil Administrateur</title>
+        <title>Concours</title>
         <link rel="icon" type="image/png" sizes="16x16" href="../../Photo/yncréa_maroc.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="../css/concours.css">
