@@ -94,7 +94,7 @@
                   <a class="nav-link disabled" >Filiéres</a>
                   <a class="nav-link" href="../main/admission.php">Admission</a>
                   <a class="nav-link" href="../Admin/connexion_admin.php">Administrateur</a>
-                  <a class="nav-link" href="../main/admission.php">Frais de scolarité</a>
+                  <a class="nav-link" href="../main/frais_scolarite.html">Frais de scolarité</a>
                 </nav>
               </div>
               <hr class="clearfix w-100 d-md-none">
