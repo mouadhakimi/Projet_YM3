@@ -84,15 +84,15 @@
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts :</h5>
                 <ul class="list-unstyled">
                   <li>
-                    <a class="btn btn-primary" style="background-color: #27dd73;" href="https://api.whatsapp.com/send?phone=212661754018" role="button" target="_blank"><img id="whastaap" src="../../Photo/whatsapp.png" style=" width: 25px;"> Responsable d'admission</a>
+                    <a class="btn btn-primary" style="background-color: #27dd73;width: 241px;" href="https://api.whatsapp.com/send?phone=212661754018" role="button" target="_blank"><img id="whastaap" src="../../Photo/whatsapp.png" style=" width: 25px;"> Responsable d'admission</a>
                   </li>
                   <br>
                   <li>
-                    <a class="btn btn-primary" style="background-color: #3db2dd;" href="mailto:yousra.el-hassani@yncrea.fr?subject=Demande de renseignements" role="button" target="_blank"><img id="whastaap" src="../../Photo/mail.png" style=" width: 25px;"> Responsable d'admission</a>
+                    <a class="btn btn-primary" style="background-color: #3db2dd;width: 241px;" href="mailto:yousra.el-hassani@yncrea.fr?subject=Demande de renseignements" role="button" target="_blank"><img id="whastaap" src="../../Photo/mail.png" style=" width: 25px;"> Responsable d'admission</a>
                   </li>
                   <br>
                   <li>
-                    <a class="btn btn-primary" style="background-color: #3db2dd;" href="mailto:jean-marc.fontugne@yncrea.fr?subject=Demande de renseignements" role="button" target="_blank"><img id="whastaap" src="../../Photo/mail.png" style=" width: 25px;"> Directeur des opérations</a>
+                    <a class="btn btn-primary" style="background-color: #3db2dd;width: 233px;" href="mailto:jean-marc.fontugne@yncrea.fr?subject=Demande de renseignements" role="button" target="_blank"><img id="whastaap" src="../../Photo/mail.png" style=" width: 25px;"> Directeur des opérations</a>
                   </li>
                 </ul>
               </div>
@@ -100,10 +100,10 @@
               <div class="col-md-2 mx-auto">
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
                 <nav class="nav flex-column">
-                  <a class="nav-link active" href="../Choix_des_filieres/choix_ecole.php">Filiéres</a>
-                  <a class="nav-link" href="#">Admission</a>
-                  <a class="nav-link" href="../Admin/connexion_admin.php">Administrateur</a>
-                  <a class="nav-link" href="#">Frais de scolarité</a>
+                  <a class="nav-link" href="../Choix_des_filieres/choix_ecole.php">Filiéres</a>
+                  <a class="nav-link" href="../main/admission.php">Admission</a>
+                  <a class="nav-link disabled">Administrateur</a>
+                  <a class="nav-link" href="../main/admission.php">Frais de scolarité</a>
                 </nav>
               </div>
               <hr class="clearfix w-100 d-md-none">
