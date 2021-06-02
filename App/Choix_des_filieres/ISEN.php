@@ -29,7 +29,7 @@
 			<a href="../main/main.html" id="retour à la page d'accueuil" ><img class="yncréa-maroc"
 			src="../../Photo/yncréamaroc.png"
 			alt="Logo yncréa Maroc"></a>
-			<a href="https://github.com/mouadhakimi-code/Project" id="retour à la page git-hub" target="_blank" ><img class="git-hub"
+			<a href="https://github.com/mouadhakimi/Projet_YM3" id="retour à la page git-hub" target="_blank" ><img class="git-hub"
 			src="../../Photo/github.png"
 			alt="Logo GitHub"></a>
 			<p id="titre" class="display-4" >JOURNEE PORTES OUVERTES</p>
