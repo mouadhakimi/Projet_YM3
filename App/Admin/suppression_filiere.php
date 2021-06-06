@@ -52,7 +52,7 @@
                         <h3>Vous voulez supprimer : </h3>
                         <select name="filiere" class="form-control">
                         <?php
-                                $sql = $conn->query("SELECT filiere_id,nom_filiere FROM filiere");
+                                $sql = $conn->query("SELECT filiere_id,nom_filiere FROM filiere WHERE nom_filiere NOT LIKE 'NULL'");
                                 while($row = $sql->fetch_array()){
                                     echo '<option value="'.$row['filiere_id'].'">'. htmlspecialchars($row['nom_filiere']).'</option>';
                                 }?>
