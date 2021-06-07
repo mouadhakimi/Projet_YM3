@@ -47,6 +47,12 @@
             </div> 
             <div class="container-fluid">
             <div class="warning">
+            <div class="form">
+                <form method="post" action="ajouter_filiere.php">
+                <input type="button" value="Ajouter une filiére" id ="btn" onclick="submit()"  class="btn btn-dark">
+                </form>
+                <br>
+                </div>
                 <div class="form1">
                 <form method="post" action="ajout_données.php">
                 <input type="button" value="Changer les données d'une filiére" id ="btn1" onclick="submit()"  class="btn btn-dark">
