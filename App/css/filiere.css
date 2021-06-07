@@ -78,3 +78,7 @@ padding-right : 85px;
 body{
         background-color : #f8f9fa!important;
     }
+#btn{
+    padding-left : 137.5px;
+    padding-right : 137.5px;
+}
