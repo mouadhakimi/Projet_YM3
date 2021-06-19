@@ -20,10 +20,12 @@
     $interesse = $_POST['interesse'];
     $id_filiere = $_POST['filiere'];
     $avis = $_POST['avis'];
+    $année_obtention = $_POST['année'];
+    $mention = $_POST['mention'];
     $requette = $conn->query("SELECT nom_filiere FROM filiere WHERE filiere_id = '$id_filiere'") or die($conn->error);
     $row = $requette->fetch_array();
     $filiere_interessee = $row['nom_filiere'];
-    if($conn->query("INSERT INTO `etudiant` (`etudiant_id`, `nom`, `prenom`, `sexe`, `numero_telephone`, `email`, `ecole`, `filiere_actuelle`, `date_de_naissance`, `interesse`, `filiere_interesse`, `année_universitaire`, `avis`) VALUES (NULL, '$nom', '$prenom', '$sexe', '$numéro', '$mail', '$ecole', '$filiere_actuelle', '$date_de_naissance', '$interesse', '$filiere_interessee', '$annee_universitaire', '$avis') ")==TRUE or die($conn->error)){
+    if($conn->query("INSERT INTO `etudiant` (`etudiant_id`, `nom`, `prenom`, `sexe`, `numero_telephone`, `email`, `ecole`, `filiere_actuelle`, `date_de_naissance`, `interesse`, `filiere_interesse`, `année_universitaire`, `avis`,`mention`,`année_obtention`) VALUES (NULL, '$nom', '$prenom', '$sexe', '$numéro', '$mail', '$ecole', '$filiere_actuelle', '$date_de_naissance', '$interesse', '$filiere_interessee', '$annee_universitaire', '$avis','$mention', '$année_obtention') ")==TRUE or die($conn->error)){
         echo "<script>alert('$nom $prenom, Yncréa Maroc vous souhaite la bienvenue');</script>";
         echo "<script>window.location.replace('http://127.0.0.1/Projet/App/main/main.html');</script>";
     }
