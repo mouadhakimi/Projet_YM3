@@ -65,6 +65,8 @@
                     <TH> Numéro de téléphone </TH> 
                     <TH> E-mail </TH> 
                     <TH> Ecole </TH>
+                    <TH> Mention Bac </TH>
+                    <TH> Date d'obtention </TH>
                     <TH> Filiere actuelle </TH>
                     <TH> Date de naissance </TH>
                     <TH> Interesse </TH>
@@ -74,7 +76,7 @@
                     </TR> 
                     <THEAD>
                     <?php
-                        $sql = "SELECT * FROM etudiant";
+                        $sql = "SELECT * FROM etudiant ORDER BY interesse";
                         $requette = $conn->query($sql);
                         while($row = $requette->fetch_array())
                             {
@@ -84,9 +86,11 @@
                                 <TD>".$row['numero_telephone']."</TD> 
                                 <TD>".$row['email']."</TD> 
                                 <TD>".$row['ecole']."</TD>
+                                <TD>".$row['mention']." </TD>
+                                <TD>".$row['année_obtention']."</TD>
                                 <TD>".$row['filiere_actuelle']."</TD>
                                 <TD>".$row['date_de_naissance']." </TD>
-                                <TD><CENTER>".$row['interesse']."</CENTER></TD>
+                                <TD>".$row['interesse']."</TD>
                                 <TD>".$row['filiere_interesse']." </TD>
                                 <TD><CENTER>".$row['année_universitaire']."</CENTER></TD>
                                 <TD>".$row['avis']."</TD>
