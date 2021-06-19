@@ -73,8 +73,23 @@
                             <option value="2éme Bac">2éme Bac</option>
                             <option value="BAC+1">BAC+1</option>
                             <option value="BAC+2">BAC+2</option>
-                            <option valur="BAC+3">BAC+3</option>
+                            <option value="BAC+3">BAC+3</option>
                         </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Mention Bac</span>
+                        <select name="mention" class="form-control">
+                            <option value="Passable">En cours</option>
+                            <option value="Passable">Passable</option>
+                            <option value="Assez Bien">Assez Bien</option>
+                            <option value="Bien">Bien</option>
+                            <option value="Trés bien">Trés bien</option>
+                            <option value="Excellent">Excellent</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Année d'obtention</span>
+                        <input type="month" name="année" class="form-control" required><br>
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Filiere actuelle</span>
