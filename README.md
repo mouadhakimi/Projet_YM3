@@ -12,7 +12,7 @@
 <a name="general-info"></a>
 ### General Info
 ***
-Ce site consiste à faire découvrir aux étudiants les 40 domaines de professionnalisation de JUNIA Grande école d'ingénieurs, de façon plus détaillés et en plus d'aider le cadre administratif de se rapprocher de plus en plus des étudiants d'aprés leurs avis suite un remplissage d'un formulaire pour répondre à leurs besoins.
+Ce site consiste à faire découvrir,s'inscrire aux étudiants les 19 domaines de professionnalisation de JUNIA Grande école d'ingénieurs, de façon plus détaillés et en plus d'aider le cadre administratif de se rapprocher de plus en plus des étudiants d'aprés leurs avis suite un remplissage d'un formulaire pour répondre à leurs besoins.
 ### Screenshot
 ![Image text](/Git_Screen/formulaire.PNG)
 
